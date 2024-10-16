@@ -31,15 +31,10 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
 #### 3. Change the directory of the dataset to the format shown in below
    ```plaintext
    path/to/coco/
-   
       train2017/       # train images
-      
       val2017/         # val images
-      
       annotations/
-      
          instances_train2017.json
-      
          instances_val2017.json
    ```
 #### 3. Start trainin
