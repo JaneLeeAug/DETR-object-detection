@@ -2,15 +2,24 @@
 ## Overview
 This project fine-tunes the DETR (DEtection TRansformers) model for object detection using custom data. The data is first converted into the COCO format, and a pre-trained model is used to speed up training.
 ## Image Inference with JSON Output Results
-
+#### 1. Download the trained model.
+#### 2. In infer.py, adjust the following parameters:
+* model_path = Path to the trained model.
+* data_dir = Directory for the images you wanna infere.
+* output_file = Path for saving the result json file.
+#### 3. Start inferencing
+   ```bash
+   python3 infer.py
+   ```
 ## Reproduce
-#### 1. Download pretrained model
+#### 1. Download a pretrained model
 * https://github.com/facebookresearch/detr?tab=readme-ov-file
 
    Use change.py to change the num_class of the pretrained model.
 
 #### 2. In main.py, adjust the following parameters:
 * output_dir: Directory for saving the trained model weights (.pth file).
+* backbone: resnet101 or resnet50, depend on which of your pretrained model is.
 * dataset_file: Path to the dataset.
 * coco_path: Path to the COCO dataset.
 * coco_panoptic_path: Path to the label files.
