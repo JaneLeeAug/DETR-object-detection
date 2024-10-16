@@ -12,6 +12,8 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
    ```bash
    python3 infer.py
    ```
+#### 4. The result JSON file is saved in _output_file_.
+
 ## Reproduce
 #### 1. Download a pretrained model
 - [Download Pretrained Model](https://github.com/facebookresearch/detr?tab=readme-ov-file)
@@ -30,4 +32,4 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
    ```bash
    python3 main.py
    ```
-#### 4. In your output_dir you can see the trained model
+#### 4. The trained model is saved in _output_dir_.
