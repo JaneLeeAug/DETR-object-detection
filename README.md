@@ -14,9 +14,9 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
    ```
 ## Reproduce
 #### 1. Download a pretrained model
-* https://github.com/facebookresearch/detr?tab=readme-ov-file
+- [Download Pretrained Model](https://github.com/facebookresearch/detr?tab=readme-ov-file)
 
-   Use change.py to change the num_class of the pretrained model.
+   And then use change.py to change the num_class of the pretrained model.
 
 #### 2. In main.py, adjust the following parameters:
 * output_dir: Directory for saving the trained model weights (.pth file).
