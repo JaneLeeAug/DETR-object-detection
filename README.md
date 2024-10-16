@@ -29,16 +29,17 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
 * resume: Path to the pre-trained weight file of step 1.
 
 #### 3. Change the directory of the dataset to the format shown in below
-path/to/coco/    
+```plaintext
+path/to/coco/
 
-   train2017/       # train images   
+   train2017/       # train images
    
-   val2017/         # val images   
+   val2017/         # val images
    
-   annotations/        
+   annotations/
    
-      instances_train2017.json   
-      
+      instances_train2017.json
+   
       instances_val2017.json
 
 #### 3. Start trainin
