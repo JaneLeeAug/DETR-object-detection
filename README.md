@@ -4,9 +4,9 @@ This project fine-tunes the DETR (DEtection TRansformers) model for object detec
 ## Image Inference with JSON Output Results
 #### 1. Download the trained model.
 #### 2. In infer.py, adjust the following parameters:
-* model_path = Path to the trained model.
-* data_dir = Directory for the images you wanna infere.
-* output_file = Path for saving the result json file.
+* model_path: Path to the trained model.
+* data_dir: Directory for the images you wanna infere.
+* output_file: Path for saving the result json file.
 #### 3. Start inferencing
    ```bash
    python3 infer.py
