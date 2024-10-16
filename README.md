@@ -37,8 +37,8 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
          instances_train2017.json
          instances_val2017.json
    ```
-#### 3. Start trainin
+#### 4. Start training
    ```bash
    python3 main.py
    ```
-#### 4. The trained model is saved in _output_dir_.
+#### 5. The trained model is saved in _output_dir_.
