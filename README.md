@@ -4,7 +4,6 @@ This project fine-tunes the **DETR** (DEtection TRansformers) model for object d
 ## Image Inference with JSON Output Results
 #### 1. Download the trained model.
 - [Download Trained Model](https://drive.google.com/file/d/1CYLJR5HcQF6qdpTDvlDPIRenx0mUg66G/view?usp=share_link)
-* https://drive.google.com/file/d/1CYLJR5HcQF6qdpTDvlDPIRenx0mUg66G/view?usp=share_link
 #### 2. In infer.py, adjust the following parameters:
 * model_path: Path to the trained model.
 * data_dir: Directory for the images you wanna infere.
