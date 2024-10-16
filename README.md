@@ -5,8 +5,10 @@ This project fine-tunes the DETR (DEtection TRansformers) model for object detec
 
 ## Reproduce（Train）
 #### Modify Parameters
-In main.py, adjust the following parameters:
-
+1. Download pretrained model
+* https://github.com/facebookresearch/detr?tab=readme-ov-file
+Use change.py to change the num_class of the pretrained model.
+2. In main.py, adjust the following parameters:
 * --output_dir: Directory for saving the trained model weights (.pth file).
 * --dataset_file: Path to the dataset.
 * --coco_path: Path to the COCO dataset.
