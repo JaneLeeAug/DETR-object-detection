@@ -1,5 +1,7 @@
 # 2D Gaussian Splatting (2DGS)
-
+_2024 Fall
+DIP Group_09
+3D Reconstruction of Jupiter Using Gaussian Splatting_
 ## 環境設置與執行
 
 ### 1. 2DGS 執行環境 (Colab):
